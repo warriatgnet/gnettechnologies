@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gnet</title>
+    <link rel="stylesheet" href="gnetteq/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="gnetteq/lib/css/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gnetteq/lib/css/animate.css">
+</head>
+<body>
+
+    
+  <header style="position: relative;">
+       <!--note the above-->
+<nav class="navbar navbar-expand-md  navbar-dark" style="background-color: rgb(27, 26, 26); border-bottom: 3px solid gold;">
+  <a class="navbar-brand" href="#"><img src="gnetteq/lib/img/G-net logo.jpg" alt="Gnet logo" id="avatar"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse offset-md-2 offset-lg-3" id="collapsibleNavbar">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" id="nav-link" href="#">Home <span class="sr-only"></span> </a>
+      </li>
+      <li class="nav-item"><a href="#about-us" id="nav-link"  class="nav-link">About</a></li>
+      <li class="nav-item">
+        <a class="nav-link" id="nav-link"  href="#">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="nav-link"  href="#">Services</a>
+      </li>   
+      <li>
+          <a href="#" id="nav-link"  class="nav-link">Join Gnet</a>
+      </li> 
+      
+      <li class="nav-item">
+          <a class="nav-link" id="nav-link"  href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+  </header>
+ 
+      
+    <!-- The navbar ends here-->
+<div class="container-fluid" style="position:relative" id="home-hero">
+  <div class="jumbotron jumbotron-fluid" id="home-hero">
+    <div class="container" style="position:absolute;">
+      <h1 class="animated fadeInDown delay-1s"> <span class="year" onload="displayYear()" ></span> IT-Revolution <br><small>Enhancing your skills in a Digital World</small></h1>
+      
+      <p class="lead">
+        <a class="btn btn-primary btn-lg animated tada delay-2s" href="contact.html" role="button">Enrol now</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  var year = document.querySelector('.year');
+      year.innerHTML = new Date().getFullYear();
+</script>
+
+
+<div class="container" id="waypoint--fade">
+  <div class="row">
+   <h2 class="h2-center" style="margin-bottom: 12px">Courses</h2>
+  </div>
+  <div class="row js--wp-1">
+            <div class="col-md-6 col-lg-3">
+              <img class="col-lg-12 img-rounded" src="gnetteq/lib/img/learn-to-code-what-is-programming.jpg" alt="software development">
+              <div class="thumbnail">
+                <h4 class=" ">Software Development</h4>
+                <p class="animated">You'll learn the fundamentals of design responsive, interactive websites for mobile and desktop applications using HTML, CSS, JavaScript, and the Bootstrap framework.</p>
+              </div>
+            </div> <br><br>
+            <div class="col-md-6 col-lg-3">
+              <img class="col-lg-12" src="gnetteq/lib/img/Digital-mkt2.jpg" alt="Digital Marketing">
+              <div class="">
+                <h4 class="">Digital Marketing</h4>
+                <p class="">This course has been designed for those who want to understand the key elements of building an effective digital marketing campaign.</p>
+              </div>
+            </div><br><br>
+          
+            <div class="col-md-6 col-lg-3">
+              <img class="col-lg-12" src="gnetteq/lib/img/graphic-logo-designing.jpg" alt="Graphic design">
+              <div class="">
+                <h4 class="">Graphic Design</h4>
+                <p class="">Students are guided through an intense studio-based program using industry standard software.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <img class="col-lg-12" src="gnetteq/lib/img/DTP-edited.jpg" alt="Desktop Publishing">
+              <div class="">
+                <h4 class="">Desktop Publishing</h4>
+                <p class="">This course will give you a solid grounding in digital design and layout for print publications.</p>
+              </div>
+            </div>
+   </div>
+      
+</div>
+
+
+
+<section class="about-us" id="about-us">
+    <div class="container">
+        <div class="row bg-transparent">
+          <h2 class="h2-center">About Us</h2>
+        </div>
+        <div class="row">
+          <div class="mission offset-md-1 col-md-6 js--wp-2">
+            <div class="heading">
+              <h3>Mission</h3>
+            </div>
+            <div class="mission-content">
+              <p>G-Net Technologies was setup in 2009 as an IT facilities Maintenance Services company, I C T Centre/ISP Setup, Small/larges scale Business office Networking, ICT Training and Consultancy Services.</p>
+            </div>
+          </div>
+          <div class="vision offset-md-1 col-md-4 js--wp-3">
+            <div class="heading">
+              <h3>Vision</h3>
+            </div>
+            <div class="vision-content">
+              <p>Our vision is to provide a seamless solution of the now and of the future through ICT innovation. </p>
+            </div>
+          </div>
+        </div>  
+      </div>
+</section>
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="courses offset-lg-1 col-lg-3  col-md-6">
+                    <h4>Courses</h4>
+                <ul class="footer-ul">
+                    <li><a href="#">Software Development</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Desktop Publishing</a></li>
+                </ul>
+            </div>
+            <div class="services col-lg-3 col-md-6">
+                    <h4>Services</h4>
+                <ul class="footer-ul">
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Corporate Branding</a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Website Design</a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Blog design and management</a></li>
+                </ul>
+            </div>
+            <div class="contact-us col-lg-4 col-md-8">
+                    <h4>Find Us</h4>
+                    <ul class="footer-ul">
+                        <li>
+                            <i class="fa fa-map-marker pr-10 text-default"></i> 
+                            <p class="contact-info" >
+                                57, Authority Avenue, besides Moscow Junior College, Ile-iwe Off Egbe-Ikotun, Lagos State.
+                            </p>
+                        </li>			
+                        <li class="contact-info"><i class="fa fa-phone pr-10 text-default"></i> +234 (0) 9054552223</li>
+                        <li class="contact-info"><i class="fa fa-phone pr-10 text-default"></i> +234 (0) 07016480901</li>
+                        <li class="contact-info"><i class="fa fa-phone pr-10 text-default"></i> +234 (0) 7064445333</li>
+                        <li class="contact-info">gnetteq@gmail.com</li>
+                    </ul>
+            </div>
+        </div>
+        <p class="footer-base">
+           Copyright &copy; 2018 GNET Technologies. All right reserved!
+        </p>
+    </div>
+</footer>
+  
+
+
+
+    <script src="gnetteq/lib/jss/jquery.min.js"></script>
+    <script src="gnetteq/lib/jss/popper.min.js"></script>
+    <script src="gnetteq/lib/jss/bootstrap.min.js"></script>
+    <script src="gnetteq/lib/jss/jquery.waypoints.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

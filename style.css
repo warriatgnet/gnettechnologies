@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+/*==== Navigation ====*/
+#avatar {
+    max-width: 50px;
+    height: auto;
+    border-radius: 60%;
+}
+#nav-bgColor {
+    background-color: black;
+    border-bottom: 3px solid gold;
+}
+
+.active {
+    color: goldenrod !important;
+}
+
+#nav-link {
+    font-size: 100%;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#nav-link:hover {
+    color: gold;
+}
+
+#home-hero {
+    height: 80vh;
+    background: rgba(0, 0, 0, 0)  url(gnetteq/lib/img/programming-code-abstract-technology-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: left;
+    color: white;
+    font-size: 250%;
+    margin-top: 15%;
+    z-index: 99999;
+    font-weight: bold;
+}
+
+#h1-help {
+    color: white;
+    font-size: 70%;
+}
+
+.h2-center {
+    text-align: right !important;
+    margin: 7% auto;
+    
+}
+h4 {
+    text-align: center;
+    color: orange;
+}
+/*
+.about-us {
+    color: white;
+    background: red;
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 10s infinite;
+}
+
+
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+} 
+*/
+.about-us {
+    color: #fff;
+    background: url(gnetteq/lib/img/about-bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+.bg-transparent {
+    font-weight: bold;
+}
+
+/*=================
+        FOOTER
+=================*/
+footer {
+    background-color: rgba(0, 0, 0, 0.74);
+    border-top: 3px solid gold;
+}
+
+footer h4 {
+    margin-top: 14px;
+    margin-bottom: 4px;
+    color: gold;
+    text-align: left;
+}
+
+.footer-ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-ul li {
+    list-style: none;
+}
+.footer-ul a{
+    color: #e6e6e6;
+}
+.contact-info {
+    color: #e6e6e6;
+}
+
+.fas {
+    width: 90px;
+}
+
+footer p:last-child {
+    color: #d9d9d9;
+    text-align: center;
+    margin: 17px auto;
+    padding-bottom: 1em;
+}
+
+footer li p:first-child{
+    text-align: left;
+}
+
+/* =========== WAYPOINTS STICKY-TOP ============*/
+.sticky-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+/* Note waypoint*/
+.js--wp-2{
+    opacity: 0;
+}
+.os-animation.animated{
+    opacity: 1;
+}
+
+  .toBeAnimated {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+  }
+
+
+/* =========== ANIMATION ============*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+}
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+
+/*========== Contact form with Php ====== */
+
+.form-messages {
+    width: 60%;
+    margin: 0 auto;
+    padding: 4px;
+    border: 1px solid #0f0;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.success {
+    background-color: rgb(25, 151, 25);
+}
+
+.error {background-color: rgb(187, 63, 63);}
+
+/*========================== 
+        MEDIA QUERY
+============================*/
+@media screen and (max-width: 577px){
+
+    body {
+        font-size: 14px;
+    }
+    .container,
+    .container-fluid {
+        width: 100% !important;
+        margin: auto !important;
+        padding: 4px auto !important;
+    }
+}
+
